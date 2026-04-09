@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+databricks-sdk
+python-multipart
+pymupdf

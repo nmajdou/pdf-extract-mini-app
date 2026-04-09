@@ -1,0 +1,19 @@
+command:
+  - python
+  - -m
+  - uvicorn
+  - app:app
+  - --host
+  - 0.0.0.0
+  - --port
+  - "8000"
+
+env:
+  - name: UC_CATALOG
+    value: "<your_catalog>"
+  - name: UC_SCHEMA
+    value: "<your_schema>"
+  - name: UC_VOLUME_NAME
+    value: "<your_volume_name>"
+  - name: SQL_WAREHOUSE_ID
+    value: "<your_sql_warehouse_id>"
